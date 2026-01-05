@@ -7491,7 +7491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-audio-recorder-player@npm:3.6.14":
+"react-native-audio-recorder-player@npm:~3.6.14":
   version: 3.6.14
   resolution: "react-native-audio-recorder-player@npm:3.6.14"
   dependencies:
@@ -7500,18 +7500,6 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 10c0/e6c262d1d79c368fb24498fd7f251cdbb108d9d74208eaf0b519dcd0f1ff7b13b51422ef8120ecc12a673f5042d5fd4a8e94c076fd12d95e2cbec07030d2486e
-  languageName: node
-  linkType: hard
-
-"react-native-audio-recorder-player@patch:react-native-audio-recorder-player@npm%3A3.6.14#~/.yarn/patches/react-native-audio-recorder-player-npm-3.6.14-3e27200e10.patch":
-  version: 3.6.14
-  resolution: "react-native-audio-recorder-player@patch:react-native-audio-recorder-player@npm%3A3.6.14#~/.yarn/patches/react-native-audio-recorder-player-npm-3.6.14-3e27200e10.patch::version=3.6.14&hash=f4fbcf"
-  dependencies:
-    hyochan-welcome: "npm:^1.0.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/907a21963c4e438c336c454646c77a1a11d254ea58efd79673b5f7558e4dda5b5632429d523f46c6b121079f91a5d6479883cdedaa3ab7a7c756f26a9123b9ba
   languageName: node
   linkType: hard
 
@@ -7954,7 +7942,7 @@ __metadata:
     prettier: "npm:2.8.8"
     react: "npm:19.2.0"
     react-native: "npm:0.83.1"
-    react-native-audio-recorder-player: "patch:react-native-audio-recorder-player@npm%3A3.6.14#~/.yarn/patches/react-native-audio-recorder-player-npm-3.6.14-3e27200e10.patch"
+    react-native-audio-recorder-player: "npm:~3.6.14"
     react-native-chat-sdk: "npm:^1.12.0"
     react-native-chat-uikit: "npm:^2.5.1"
     react-native-create-thumbnail: "npm:^2.2.0"
