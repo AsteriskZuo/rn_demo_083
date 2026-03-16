@@ -36,7 +36,7 @@ function SendMessage() {
 
   if (page === 0) {
     return (
-      <SafeAreaView style={{flex: 1}}>
+      <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
         <TextInput
           placeholder="Please App Key."
           value={_appKey}
@@ -85,7 +85,7 @@ function SendMessage() {
     );
   } else if (page === 1) {
     return (
-      <SafeAreaView style={{flex: 1}}>
+      <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
         <ConversationDetail
           convId={peer}
           convType={0}
@@ -100,7 +100,7 @@ function SendMessage() {
       </SafeAreaView>
     );
   } else {
-    return <View />;
+    return <View style={{flex: 1, backgroundColor: 'white'}} />;
   }
 }
 

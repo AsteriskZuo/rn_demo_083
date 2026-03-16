@@ -7525,31 +7525,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-chat-uikit@file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.5.2::locator=rn_demo_083%40workspace%3A.":
-  version: 2.5.2
-  resolution: "react-native-chat-uikit@file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.5.2#/Users/asterisk/Output/npm/react-native-chat-uikit-2.5.2::hash=2daf0d&locator=rn_demo_083%40workspace%3A."
+"react-native-chat-uikit@npm:^2.5.4":
+  version: 2.5.4
+  resolution: "react-native-chat-uikit@npm:2.5.4"
   dependencies:
     date-fns: "npm:^4.1.0"
     pinyin-pro: "npm:^3.26.0"
     pure-uuid: "npm:^1.8.1"
     twemoji: "npm:^14.0.2"
   peerDependencies:
-    "@react-native-async-storage/async-storage": "*"
-    "@react-native-camera-roll/camera-roll": "*"
-    "@react-native-clipboard/clipboard": "*"
-    "@react-native-documents/picker": "*"
-    react: "*"
-    react-native: ">=0.71.0"
-    react-native-audio-recorder-player: "*"
-    react-native-chat-sdk: ^1.8.0
-    react-native-create-thumbnail: "*"
-    react-native-device-info: "*"
-    react-native-file-access: "*"
-    react-native-gesture-handler: "*"
-    react-native-image-picker: "*"
-    react-native-safe-area-context: "*"
-    react-native-video: "*"
-  checksum: 10c0/3b08b9e31c6fbc58d20653cb923ba24bdb3a72dcf640eebfec43e6ba1a08f06236b8cfbcd948b0e834745576f5737a1fdc7df7f34bd960d68845af37a69beeec
+    "@react-native-async-storage/async-storage": ">=2.0.0"
+    "@react-native-camera-roll/camera-roll": ">=7.0.0"
+    "@react-native-clipboard/clipboard": ">=1.16.0"
+    "@react-native-documents/picker": ">=10.0.0"
+    react: ">=18.2.0"
+    react-native: ">=0.76.0"
+    react-native-audio-recorder-player: ~3.6.0
+    react-native-chat-sdk: ^1.12.0
+    react-native-create-thumbnail: ">=2.0.0"
+    react-native-device-info: ">=14.0.0"
+    react-native-file-access: ">=3.0.0"
+    react-native-gesture-handler: ">=2.0.0"
+    react-native-image-picker: ">=8.0.0"
+    react-native-safe-area-context: ">=5.0.0"
+    react-native-video: ">=6.0.0"
+  checksum: 10c0/86e403a3b7aebbef31e59de554106d1cbb04cce5cdcb000929d48ade652afeb811e152b7adf65bedb7bb3abf02b25f410eb9f905f3ac210bf189b3adfaec751a
   languageName: node
   linkType: hard
 
@@ -7956,7 +7956,7 @@ __metadata:
     react-native: "npm:0.83.1"
     react-native-audio-recorder-player: "patch:react-native-audio-recorder-player@npm%3A3.6.14#~/.yarn/patches/react-native-audio-recorder-player-npm-3.6.14-3e27200e10.patch"
     react-native-chat-sdk: "npm:^1.12.0"
-    react-native-chat-uikit: /Users/asterisk/Output/npm/react-native-chat-uikit-2.5.2
+    react-native-chat-uikit: "npm:^2.5.4"
     react-native-create-thumbnail: "npm:^2.2.0"
     react-native-device-info: "npm:^15.0.1"
     react-native-file-access: "npm:^3.2.0"
